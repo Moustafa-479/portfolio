@@ -1,0 +1,43 @@
+p.text-black-50:not(.skills p.text-black-50) {
+  direction: rtl !important;
+}
+
+.templates .content .box {
+  text-align: end;
+}
+
+.templates .box-contnet {
+  box-shadow: -10px 14px 14px #ddd;
+}
+
+.templates .content .box span::after {
+  left: 100%;
+}
+
+.templates .content .box span:hover:after {
+  left: 0;
+} 
+
+.templates .popap .info a {
+  width: inherit;
+  text-align: center;
+}
+
+.templates .popap .info a::after {
+  right: 0%;
+  left: 100%;
+}
+
+.templates .popap .info a:hover:after {
+  left: 0;
+}
+
+.creativity .container .content .image .text a::after {
+  right: 0;
+  left: 100%;
+}
+
+.creativity .container .content .image .text a:hover:after {
+  left: 0;
+}
+

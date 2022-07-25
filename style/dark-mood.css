@@ -1,0 +1,63 @@
+:root {
+  --bs-gray-800: #111212 !important;
+}
+
+body {
+  background-color: var(--bs-gray-800);
+}
+
+.templates .box-contnet {
+  box-shadow: 10px 14px 14px #0e0e0e;
+}
+
+.templates .content .box-contnet:hover {
+  background-color: #16181a;
+}
+
+.creativity {
+  background-color: #16181a;
+}
+
+.creativity .container .content::before {
+  box-shadow: 9px 11px 11px #0c0c0c;
+}
+
+.creativity .container .content .image {
+  box-shadow: -9px 11px 10px #0c0c0c;
+}
+
+.skills .container .bootstrap::before {
+  border-color: var(--bs-gray-800) transparent var(--bs-gray-800) var(--bs-gray-800);
+}
+
+.skills .container .bootstrap::after {
+  border-color: var(--bs-gray-800) var(--bs-gray-800) var(--bs-gray-800) transparent;
+}
+
+.skills .container .js::before {
+  border-color: transparent transparent transparent var(--bs-gray-800);
+}
+
+.skills .container .css::before {
+  border-color: transparent var(--bs-gray-800) transparent transparent;
+}
+
+.skills .container .css::after { 
+  border-color: transparent transparent transparent var(--bs-gray-800);
+}
+
+.skills .container .html::before {
+  border-color: transparent var(--bs-gray-800) transparent transparent;
+}
+
+.setting .content {
+  background-color: #16181a;
+}
+
+.setting-icon {
+  background-color: #fff;
+}
+
+.templates .popap .info {
+  background-color: #16181a !important;
+}
