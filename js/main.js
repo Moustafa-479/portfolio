@@ -83,7 +83,7 @@ function themeMood() {
 
 window.onload = function () {
 
-  if (localStorage.getItem("theme-color") === '') {
+  if (!localStorage.getItem("theme-color")) {
     localStorage.setItem("theme-color", "light-green");
   }
 
