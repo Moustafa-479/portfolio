@@ -26,6 +26,22 @@ body {
   box-shadow: -9px 11px 10px #0c0c0c;
 }
 
+.skills .container .html::before {
+  border-color: transparent var(--bs-gray-800) transparent transparent;
+}
+
+.skills .container .css::before {
+  border-color: transparent var(--bs-gray-800) transparent transparent;
+}
+
+.skills .container .css::after {
+  border-color: transparent transparent transparent var(--bs-gray-800);
+}
+
+.skills .container .js::before {
+  border-color: transparent transparent transparent var(--bs-gray-800);
+}
+
 .skills .container .bootstrap::before {
   border-color: var(--bs-gray-800) transparent var(--bs-gray-800) var(--bs-gray-800);
 }
@@ -34,30 +50,48 @@ body {
   border-color: var(--bs-gray-800) var(--bs-gray-800) var(--bs-gray-800) transparent;
 }
 
-.skills .container .js::before {
-  border-color: transparent transparent transparent var(--bs-gray-800);
+@media (max-width: 538px) {
+
+  .skills .container .html::before {
+    border-color: transparent transparent var(--bs-gray-800) transparent;
+  } 
+
+  .skills .container .css::before {
+    border-color: transparent transparent var(--bs-gray-800) transparent;
+  }
+
+
+  .skills .container .css::after {
+    border-color: var(--bs-gray-800) transparent transparent transparent;
+  }
+
+  
+  .skills .container .js::before {
+    border-color: transparent transparent var(--bs-gray-800) transparent;
+  }
+
+  .skills .container .js::after {
+    border-color: var(--bs-gray-800) transparent transparent transparent;
+  }
+
+  .skills .container .bootstrap::before {
+    border: transparent;
+  }
+
+  .skills .container .bootstrap::after {
+    border: transparent;
+  }
+
 }
 
-.skills .container .css::before {
-  border-color: transparent var(--bs-gray-800) transparent transparent;
-}
+  .setting .content {
+    background-color: #16181a;
+  }
 
-.skills .container .css::after { 
-  border-color: transparent transparent transparent var(--bs-gray-800);
-}
+  .setting-icon {
+    background-color: #fff;
+  }
 
-.skills .container .html::before {
-  border-color: transparent var(--bs-gray-800) transparent transparent;
-}
-
-.setting .content {
-  background-color: #16181a;
-}
-
-.setting-icon {
-  background-color: #fff;
-}
-
-.templates .popap .info {
-  background-color: #16181a !important;
-}
+  .templates .popap .info {
+    background-color: #16181a !important;
+  }

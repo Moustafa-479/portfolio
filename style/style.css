@@ -409,73 +409,73 @@
 }
 
 .skills .container .html {
-    background-color: #ff9800;
-    position: relative;
-  }
+  background-color: #ff9800;
+  position: relative;
+}
 
 .skills .container .html::before {
-    content: "";
-    border: 57px solid;
-    position: absolute;
-    border-color: transparent #FFF transparent transparent;
-    right: 0;
-  }
+  content: "";
+  border: 57px solid;
+  position: absolute;
+  border-color: transparent #FFF transparent transparent;
+  right: 0;
+}
 
 .skills .container .css {
-    background-color: #2196f3;
-    position: relative;
-  }
+  background-color: #2196f3;
+  position: relative;
+}
 
 .skills .container .css::before {
-    content: "";
-    border: 57px solid;
-    position: absolute;
-    border-color: transparent #FFF transparent transparent;
-    right: 0;
-  }
+  content: "";
+  border: 57px solid;
+  position: absolute;
+  border-color: transparent #FFF transparent transparent;
+  right: 0;
+}
 
 .skills .container .css::after {
-    content: "";
-    border: 57px solid;
-    position: absolute;
-    border-color: transparent transparent transparent #FFF;
-    left: 0;
-  }
+  content: "";
+  border: 57px solid;
+  position: absolute;
+  border-color: transparent transparent transparent #FFF;
+  left: 0;
+}
 
 .skills .container .js {
-    background: #009688;
-    position: relative;
-  }
+  background: #009688;
+  position: relative;
+}
 
 .skills .container .js::before {
-    content: "";
-    border: 57px solid;
-    position: absolute;
-    border-color: transparent transparent transparent #FFF;
-    left: 0;
-  }
+  content: "";
+  border: 57px solid;
+  position: absolute;
+  border-color: transparent transparent transparent #FFF;
+  left: 0;
+}
 
 .skills .container .bootstrap {
-    background-color: #673ab7;
-    padding: 73px;
-    position: relative;
-  }
+  background-color: #673ab7;
+  padding: 73px;
+  position: relative;
+}
 
 .skills .container .bootstrap::before {
-    content: "";
-    border: 117px solid;
-    position: absolute;
-    border-color: #FFF transparent #FFF #fff;
-    left: -54px;
-  }
+  content: "";
+  border: 117px solid;
+  position: absolute;
+  border-color: #FFF transparent #FFF #fff;
+  left: -54px;
+}
 
 .skills .container .bootstrap::after {
-    content: "";
-    border: 117px solid;
-    position: absolute;
-    border-color: #FFF #fff #FFF transparent;
-    right: -54px;
-  }
+  content: "";
+  border: 117px solid;
+  position: absolute;
+  border-color: #FFF #fff #FFF transparent;
+  right: -54px;
+}
 
 @media (max-width: 991px) {
   .skills .container div {
